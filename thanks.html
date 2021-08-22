@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="distribution" content="global">
+      <title>DogeCoin Millionaire</title>
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+      <!-- <link rel="stylesheet" href="css/reset.css">
+         <link rel="stylesheet" href="css/bootstrap-grid.css"> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/css/intlTelInput.min.css">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css">
+      <link rel="stylesheet" href="css/main.css">
+   </head>
+   <body>
+      <header class="header">
+         <div class="alarm-block">
+            <div class="container-fluid">
+               <div class="row align-items-center">
+                  <div class="col-lg-8 col-md-5">
+                     <div class="message">
+                        <p><span>WARNING:</span>
+                           Due to extremely high media demand, we will close registration as of <span class="today-warn"></span>
+                        </p>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-7">
+                     <ul class="alarm-list">
+                        <li><img src="img/white-arrow.svg" alt="White Arrow"> Hurry!</li>
+                        <li class="time" id="time">05:30</li>
+                        <li class="reg-link"><a href="#register" class="smooth-scroll">Register Now!</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="header-bottom">
+            <div class="container-fluid">
+               <div class="row align-items-center">
+                  <div class="col-xl-8 col-md-7 col-6">
+                     <h1>
+                        <a href="#">
+                        <img src="img/logo.svg" alt="DogeCoin Millionaire"/>
+                        </a>
+                     </h1>
+                  </div>
+                  <div class="col-xl-4 col-md-5 col-6">
+                     <ul class="utility-list">
+                        <li>
+                           <img class="flag-custom country-flag" src="#" alt=""/>
+                           <div class="list-content">
+                              Exclusive offers for
+                              <span>traders in <span class="traders-in-country"></span></span>
+                           </div>
+                        </li>
+                        <li><a href="#"><img src="img/chinees-sign.svg" alt="Chinees Sign"/></a></li>
+                        <li><a href="#"><img src="img/chat-icon.svg" alt="Chat Icon"/></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+
+      <section class="thanks-page">
+          <div class="container">
+              <h2>
+                Thank you for registering. <br>
+                Our manager will contact you shortly.
+              </h2>
+          </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-wrap">
+           <div class="container-fluid">
+              <div class="row">
+                 <div class="col-12">
+                    <div class="footer-content">
+                       <p>©2021 Dogecoin Millionaire</p>
+                       <a href="#register" class="btn smooth-scroll">Get Started Now</a>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+        <div class="footer-wrap">
+           <div class="container-fluid">
+              <div class="row">
+                 <div class="col-12">
+                    <div class="footer-content">
+                       <ul class="footer-links">
+                          <li><a href="#register" class="smooth-scroll">Register</a></li>
+                          <li><a href="#calculate" class="smooth-scroll">Calculate</a></li>
+                          <li><a href="#expert" class="smooth-scroll">Expert Opinion</a></li>
+                          <li><a href="#" class="smooth-scroll">Affiliates</a></li>
+                       </ul>
+                       <ul class="footer-socials">
+                          <li><a href="#"><img src="img/facebook.svg" alt="Facebook logo"/></a></li>
+                          <li><a href="#"><img src="img/linkedin.svg" alt="LinkedIn logo"/></a></li>
+                          <li><a href="#"><img src="img/twitter.svg" alt="Twitter logo"/></a></li>
+                          <li><a href="#"><img src="img/instagram.svg" alt="Instagram logo"/></a></li>
+                          <li><a href="#"><img src="img/youtube.svg" alt="YouTube logo"/></a></li>
+                       </ul>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </footer>
+     <div class="modal-wrap exlusive-offers" id="exlusive-offers" >
+        <div class="modal">
+           <div class="modal-content">
+              <div class="modal-media">
+                 <img src="img/modal-media.png" alt="Modal image"/>
+                 <div class="modal-media-content">
+                    <p>Due to high media demand. We will close registration as of <span class="today-warn">05/19/2021</span>
+                    </p>
+                    <h4>HURRY!</h4>
+                    <div class="timer-wrap">
+                       <div class="timer">
+                          <span id="modal-hours">05</span>
+                       </div>
+                       <div class="timer-separator">
+                          <span>:</span>
+                       </div>
+                       <div class="timer">
+                          <span id="modal-minutes">30</span>
+                       </div>
+                    </div>
+                 </div>
+                 <img src="img/modal-coin.svg" alt="Modal coin" class="modal-coin"/>
+                 <img src="img/modal-coins.svg" alt="Modal coin" class="modal-coins"/>
+              </div>
+              <div class="modal-form">
+                 <div class="exit__close">X</div>
+                 <h2>Exlusive offers</h2>
+                 <div class="offer-location">
+                    <img class="flag-custom country-flag" src="" alt=""/>
+                    <div class="offer-location-content">
+                       For traders in
+                       <span class="traders-in-country"></span>
+                    </div>
+                 </div>
+                 <h3>Change your life today!</h3>
+                 <div  class="boss-form">
+                    <form class="reg_form" method="POST" action="./thanks.html">
+                       <div class="row">
+                           <div class="col-md-6">
+                               <div class="form-group">
+                                   <input type="text" class="input" maxlength="256" name="first_name"
+                                       pattern="[^0-9!@#\$\^&%\*\(\)\+=\-\[\]\{\}\|:<>\?,\.']+"
+                                       placeholder="First Name" aria-label="First Name" required="required"
+                                       autofocus>
+                                   <div class="icon"></div>
+                               </div>
+                           </div>
+                           <div class="col-md-6">
+                               <div class="form-group">
+                                   <input type="text" class="input" maxlength="256" name="last_name"
+                                       pattern="[^0-9!@#\$\^&%\*\(\)\+=\-\[\]\{\}\|:<>\?,\.']+"
+                                       placeholder="Last Name" aria-label="Last Name" required="required">
+                                   <div class="icon"></div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="form-group">
+                           <input type="email" class="input" maxlength="256" name="email"
+                               pattern="[A-Za-z0-9._%+-]{1,}@[a-zA-Z0-9._%+-]{1,}([.]{1}[a-zA-Z]{2,}|[.]{1}[a-zA-Z0-9._%+-]{2,}[.]{1}[a-zA-Z]{2,})"
+                               placeholder="Email" aria-label="Your email address"
+                               required="required">
+                           <div class="icon"></div>
+                       </div>
+                       <div class="row">
+                           <div class="col-md-6" style="display: none;">
+                               <div class="form-group">
+                                   <input type="password" name="password" class="input field-password"
+                                       required="required" placeholder="Password"
+                                       data-title-validation="Password must contain a mix of six characters, at least one uppercase letter, one lowercase letter and one number. Example: 123Abc">
+                                   <div class="toggle-gen-password">
+                                       <div class="before">
+                                           <i class="fa fa-eye-slash"></i>
+                                       </div>
+                                       <div class="after">
+                                           <i class="fa fa-eye"></i>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="col-md-6" style="display: none;">
+                               <div class="form-group">
+                                   <button class="button-gen-password">Click to generate new
+                                       password</button>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="form-group">
+                           <div id="dropdown-container1"></div>
+                           <input type="tel" id="phone1" name="phone">
+                       </div>
+                       <button type="submit" class="button">Get Started Now</button>
+                    </form>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
+     <script src="./js/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+     <script src="./js/intlTelInput-jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/js/utils.min.js"></script>
+     <script src="js/app.js"></script>
+  </body>
+</html>

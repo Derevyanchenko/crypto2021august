@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="distribution" content="global">
+      <title>DogeCoin Millionaire</title>
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/css/intlTelInput.min.css">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css">
+      <link rel="stylesheet" href="css/main.css">
+   </head>
+   <body>
+      <header class="header">
+         <div class="alarm-block">
+            <div class="container-fluid">
+               <div class="row align-items-center">
+                  <div class="col-lg-8 col-md-5">
+                     <div class="message">
+                        <p><span>WARNING:</span>
+                           Due to extremely high media demand, we will close registration as of <span class="today-warn"></span>
+                        </p>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-7">
+                     <ul class="alarm-list">
+                        <li><img src="img/white-arrow.svg" alt="White Arrow"> Hurry!</li>
+                        <li class="time" id="time">05:30</li>
+                        <li class="reg-link"><a href="#register" class="smooth-scroll">Register Now!</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="header-bottom">
+            <div class="container-fluid">
+               <div class="row align-items-center">
+                  <div class="col-xl-8 col-md-7 col-6">
+                     <h1>
+                        <a href="#">
+                        <img src="img/logo.svg" alt="DogeCoin Millionaire"/>
+                        </a>
+                     </h1>
+                  </div>
+                  <div class="col-xl-4 col-md-5 col-6">
+                     <ul class="utility-list">
+                        <li>
+                           <img class="flag-custom country-flag" src="#" alt=""/>
+                           <div class="list-content">
+                              Exclusive offers for
+                              <span>traders in <span class="traders-in-country"></span></span>
+                           </div>
+                        </li>
+                        <li><a href="#"><img src="img/chinees-sign.svg" alt="Chinees Sign"/></a></li>
+                        <li><a href="#"><img src="img/chat-icon.svg" alt="Chat Icon"/></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <section class="banner" id="register">
+         <div class="top-stripe"></div>
+         <div class="banner-content">
+            <div class="container-fluid">
+               <div class="row banner-top">
+                  <div class="col-lg-8 video-col">
+                     <div class="video-holder">
+
+                        <script src="https://fast.wistia.com/embed/medias/5zvgldo8ki.jsonp" async></script>
+                        <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
+
+                        <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+                           <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                              <div class="wistia_embed wistia_async_5zvgldo8ki videoFoam=true" style="height:100%;position:relative;width:100%">
+                                 <div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;">
+                                    <img src="https://fast.wistia.com/embed/medias/5zvgldo8ki/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" />
+                                </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="video-placeholder">
+                           <div class="video-placeholder-content">
+                              <h3>Play and <img src="img/video-coin.svg" loading="lazy" alt="Small coin"/></h3>
+                              <h2>REVEAL</h2>
+                              <p>Dogecoin Millionaire</p>
+                              <h2>SECRETS</h2>
+                              <h3>to earn Money!</h3>
+                           </div>
+                           <img src="img/video-play.svg" alt="Video play button" class="video-play"/>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 orange-col">
+                     <div class="banner-form">
+                        <div class="row">
+                           <div class="col-lg-12 col-md-6">
+                              <h2>Change your life today!</h2>
+                           </div>
+                           <div class="col-lg-12 col-md-6">
+                            <div class="form-box">
+                                <div class="form-block">
+                                    <form class="reg_form" method="POST" action="./thanks.html">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="text" class="input" maxlength="256" name="first_name"
+                                                        pattern="[^0-9!@#\$\^&%\*\(\)\+=\-\[\]\{\}\|:<>\?,\.']+"
+                                                        placeholder="First Name" aria-label="First Name" required="required"
+                                                        autofocus>
+                                                    <div class="icon"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="text" class="input" maxlength="256" name="last_name"
+                                                        pattern="[^0-9!@#\$\^&%\*\(\)\+=\-\[\]\{\}\|:<>\?,\.']+"
+                                                        placeholder="Last Name" aria-label="Last Name" required="required">
+                                                    <div class="icon"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="email" class="input" maxlength="256" name="email"
+                                                pattern="[A-Za-z0-9._%+-]{1,}@[a-zA-Z0-9._%+-]{1,}([.]{1}[a-zA-Z]{2,}|[.]{1}[a-zA-Z0-9._%+-]{2,}[.]{1}[a-zA-Z]{2,})"
+                                                placeholder="Email" aria-label="Your email address"
+                                                required="required">
+                                            <div class="icon"></div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6" style="display: none;">
+                                                <div class="form-group">
+                                                    <input type="password" name="password" class="input field-password"
+                                                        required="required" placeholder="Password" 
+                                                        data-title-validation="Password must contain a mix of six characters, at least one uppercase letter, one lowercase letter and one number. Example: 123Abc">
+                                                    <div class="toggle-gen-password">
+                                                        <div class="before">
+                                                            <i class="fa fa-eye-slash"></i>
+                                                        </div>
+                                                        <div class="after">
+                                                            <i class="fa fa-eye"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6" style="display: none;">
+                                                <div class="form-group">
+                                                    <button class="button-gen-password">Click to generate new
+                                                        password</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div id="dropdown-container1"></div>
+                                            <input type="tel" id="phone1" name="phone" required="required">
+                                        </div>
+                                <button type="submit" class="button">Get Started Now</button>
+                                </form>
+                                </div>
+                            </div>
+                           </div>
+                        </div>
+                        <img src="img/blur-coin.svg" loading="lazy" alt="Coin" class="decorator-coin one"/>
+                        <img src="img/decorator-multiple-coins.svg" loading="lazy" alt="Coin" class="decorator-coin multiple"/>
+                     </div>
+                  </div>
+               </div>
+               <div class="row banner-bottom">
+                  <div class="col-lg-4">
+                     <div class="banner-title">
+                        <h2 class="subtitle-h1">Dogecoin Investment</h2>
+                        <p>This is the easiest place to buy and sell Dogecoin.</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-8">
+                     <div class="banner-description">
+                        <h3>Dogecoin Millionaire is making people rich.</h3>
+                        <p>
+                           Dogecoin Millionaire is an investment group exclusively reserved for people who have recognized the insane returns that Dogecoin provides and have quietly amassed a fortune. Our members chill out in luxurious retreats around the world while making money on their laptops with just a click every day.
+                           <a href="#" id="modal-test">Start your journey now<img src="img/link-arrow.svg"
+                              alt="Link Arrow"/></a>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-lg-4">
+                     <div class="bottom-stripe"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <img src="img/blur-coin.svg" alt="Coin" class="decorator-coin one"/>
+         <img src="img/decorator-multiple-coins.svg" alt="Coin" class="decorator-coin multiple"/>
+      </section>
+      <section class="trust-section">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-12 d-flex justify-content-center">
+                  <ul class="logo-list">
+                     <li><img src="img/McAfee-logo.svg" alt="McAfee Logo"/></li>
+                     <li><img src="img/secure-trading-logo.svg" alt="Secure Trading Logo"/></li>
+                     <li><img src="img/norton-logo.svg" alt="Norton"/></li>
+                     <li><img src="img/trust-logo.svg" alt="Trust"/></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="person-convincer">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-lg-6 person-col">
+                  <div class="person-holder orange-light">
+                     <div class="image-wrap">
+                        <img src="img/Elon-Musk.jpg" alt="Elon Musk"/>
+                     </div>
+                     <div class="content-wrap">
+                        <h4>Elon Musk</h4>
+                        <p class="job-title">Entrepreneur and crypto millionaire</p>
+                        <p>Dogecoin is the next step in crypto revolution. The value growth is the biggest in history
+                           making new millionaires every day. Investors are directing all of their assets towards Doge
+                           and I’m one of the first who did it.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-6 person-col">
+                  <div class="person-holder orange-dark">
+                     <div class="image-wrap">
+                        <img src="img/richard-branson.jpg" alt="Richard Branson"/>
+                     </div>
+                     <div class="content-wrap">
+                        <h4>Richard Branson</h4>
+                        <p class="job-title">Dogecoin millionaire</p>
+                        <p>If you're a big investor, like me, or a normal person investing a few hundred dollars you can
+                           take your share of the $500 trillion crypto market. Right now, Dogecoin is the hot ticket and
+                           everyone investing will reap great profit!
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="calculator" id="calculate">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-12">
+                  <div class="calculator-wrap">
+                     <div class="calculate">
+                        <h3>Investment Calculator</h3>
+                        <p>You can calculate the possibilities and financial earnings by entering the desired amount into our calculator and it will show you the profit on your investments. Enter the investment amount to discover your profit.</p>
+                        <div class="calculate-cards-wrap">
+                           <div class="calculate-cards">
+                              <div class="calculate-cards-content">
+                                 <h5>$ <input type="text" name="investment" id="investment" placeholder="00,000"
+                                    size="6"></h5>
+                                 <div class="profit-label">
+                                    <span>If you have invested last year</span>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="calculate-cards earned">
+                              <div class="calculate-cards-content">
+                                 <h5>$<span id="profit">00,000</span></h5>
+                                 <div class="profit-label">
+                                    <span>Your gross profit for this year</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="expected-earnings">
+                        <h4>Your Expected Earnings in Investment Profit</h4>
+                        <form action="#">
+                           <div class="input-holder">
+                              <label for="price">Purchase price</label>
+                              <input type="text" name="price" id="price" placeholder="22" />
+                           </div>
+                           <div class="input-holder">
+                              <label for="ratio">Gross profit ratio</label>
+                              <input type="text" name="ratio" id="ratio" placeholder="87%" />
+                           </div>
+                           <div class="input-holder">
+                              <label for="difference">Price difference</label>
+                              <input type="text" name="difference" id="difference" placeholder="18" />
+                           </div>
+                           <div class="profit">
+                              <p>Total profit <span>16,609</span></p>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="track-earnings">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-12 track-wrap">
+                  <h2 class="subtitle-h1">Track Your Earnings</h2>
+                  <img src="img/large-arrow.svg" alt="Large orange arrow" class="absolute-image arrow"/>
+                  <img src="img/small-arrow.svg" alt="Small orange arrow" class="absolute-image small-arrow"/>
+                  <img src="img/ellipse-girl.png" loading="lazy" alt="Ellipse girl" class="absolute-image ellipse-girl"/>
+                  <img src="img/earnings-card-2.svg" loading="lazy" alt="Earnings card left" class="absolute-image card-left"/>
+                  <div class="absolute-image card-top">
+                     <img src="img/earnings-card.svg" loading="lazy" alt="Earnings card top"/>
+                     <p>This is the easiest place to buy and sell Dogecoin.</p>
+                  </div>
+                  <img src="img/text-card.svg" loading="lazy" alt="Earnings card right" class="absolute-image card-right"/>
+               </div>
+            </div>
+         </div>
+         <img src="img/man-with-bg.png" loading="lazy" alt="Man with background"/>
+      </section>
+      <section class="slider-section" id="expert">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-12">
+                  <h2 class="subtitle-h1">Expert Opinion on Dogecoin</h2>
+                  <div class="expert-slider">
+                     <div class="expert-item">
+                        <a href="https://www.forbes.com/sites/billybambrough/2021/02/08/dogecoin-price-madness-how-billionaires-musicians-and-youtubers-memed-dogecoin-to-10-billion/amp/" target="_blank">
+                           <img src="img/article-1.jpg" alt="Article image 1"/>
+                           <div class="brand-stripe dark">
+                              <img src="img/forbes.svg" alt="Forbes"/>
+                           </div>
+                           <p>Read the article...</p>
+                        </a>
+                     </div>
+                     <div class="expert-item">
+                        <a href="https://www.economist.com/finance-and-economics/2018/01/13/bitcoin-is-no-longer-the-only-game-in-crypto-currency-town" target="_blank">
+                           <img src="img/article-2.jpg" alt="Article image 1"/>
+                           <div class="brand-stripe red">
+                              <img src="img/the-economist.png" alt="The Economist"/>
+                           </div>
+                           <p>Read the article...</p>
+                        </a>
+                     </div>
+                     <div class="expert-item">
+                        <a href="https://www.entrepreneur.com/article/374264" target="_blank">
+                           <img src="img/article-3.jpg" alt="Article image 1"/>
+                           <div class="brand-stripe dark">
+                              <img src="img/entrepreneur.svg" alt="Entrepreneur"/>
+                           </div>
+                           <p>Read the article...</p>
+                        </a>
+                     </div>
+                     <div class="expert-item">
+                        <a href="https://finance.yahoo.com/news/meet-dogecoin-millionaire-whos-holding-183444732.html" target="_blank">
+                           <img src="img/article-1.jpg" alt="Article image 1"/>
+                           <div class="brand-stripe purple">
+                              <img src="img/yahoo.png" alt="Yahoo"/>
+                           </div>
+                           <p>Read the article...</p>
+                        </a>
+                     </div>
+                     <div class="expert-item">
+                        <a href="https://www.forbes.com/sites/billybambrough/2021/04/28/the-dogefather-elon-musk-and-billionaire-investor-mark-cuban-help-dogecoin-leave-bitcoin-and-ethereum-in-the-dust-with-20-price-rally/" target="_blank">
+                           <img src="img/article-2.jpg" alt="Article image 1"/>
+                           <div class="brand-stripe dark">
+                              <img src="img/forbes.svg" alt="Forbes"/>
+                           </div>
+                           <p>Read the article...</p>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="upsell-section">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-12">
+                  <ul class="upsell-list">
+                     <li>
+                        <div class="person-image">
+                           <img src="img/17.jpg" alt="Person Image 1"/>
+                        </div>
+                        <div class="person-details">
+                           <img src="img/up-arrow.png" alt="Up arrow"/>
+                           <span class="person-name">Mark Eliot</span>
+                           <span class="price">$ 11,629</span>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="person-image">
+                           <img src="img/4.jpg" alt="Person Image 2"/>
+                        </div>
+                        <div class="person-details">
+                           <img src="img/up-arrow.png" alt="Up arrow"/>
+                           <span class="person-name">Mathew Torres</span>
+                           <span class="price">$ 10,182</span>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="person-image">
+                           <img src="img/5.jpg" alt="Person Image 3"/>
+                        </div>
+                        <div class="person-details">
+                           <img src="img/up-arrow.png" alt="Up arrow"/>
+                           <span class="person-name">Mario Watts</span>
+                           <span class="price">$ 18,728</span>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="person-image">
+                           <img src="img/1.jpg" alt="Person Image 4"/>
+                        </div>
+                        <div class="person-details">
+                           <img src="img/up-arrow.png" alt="Up arrow"/>
+                           <span class="person-name">Thomas Rose</span>
+                           <span class="price">$ 14,829</span>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="person-image">
+                           <img src="./img/17(1).jpg" alt="Person Image 5"/>
+                        </div>
+                        <div class="person-details">
+                           <img src="img/up-arrow.png" alt="Up arrow"/>
+                           <span class="person-name">Vanessa Daniels</span>
+                           <span class="price">$ 19,693</span>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="person-image">
+                           <img src="img/13.jpg" alt="Person Image 6"/>
+                        </div>
+                        <div class="person-details">
+                           <img src="img/up-arrow.png" alt="Up arrow"/>
+                           <span class="person-name">Abbie Powell</span>
+                           <span class="price">$ 11,629</span>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="cards-section">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-12">
+                  <div class="cards-section-title">
+                     <h3>Register today to get immediate access to this revolutionary software</h3>
+                     <h2 class="subtitle-h1">Dogecoin Millionaire, Instant Earnings</h2>
+                  </div>
+               </div>
+               <div class="col-12">
+                  <div class="cards-list">
+                     <div class="card-col">
+                        <div class="card">
+                           <img src="img/icon-sheild.svg" alt="Shield icon"/>
+                           <h4><span>Secure Transactions</span><img src="img/icon-sheild.svg"
+                              alt="Shield icon mobile"/></h4>
+                           <p>By using blockchain technology we deliver 98.9% success rate to all members of our
+                              private group.
+                           </p>
+                        </div>
+                     </div>
+                     <div class="card-col">
+                        <div class="card light">
+                           <img src="img/icon-point.svg" alt="Point icon"/>
+                           <h4><span>Simple and Easy to Use</span><img src="img/icon-point.svg"
+                              alt="Point icon mobile"/></h4>
+                           <p>Dogecoin Millionaire installs in seconds on any computer or mobile device. PC, MAC,
+                              Android, iOS and other systems.
+                           </p>
+                        </div>
+                     </div>
+                     <div class="card-col">
+                        <div class="card lighter">
+                           <img src="img/icon-up-dollar.svg" alt="Up dollar icon"/>
+                           <h4><span>Trusted Performance</span><img src="img/icon-up-dollar.svg"
+                              alt="Up dollar icon mobile"/></h4>
+                           <p>Fully automated performance instantly scans all the major exchanges. Zero risk, immediate
+                              rewards.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="how-this-works">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-12">
+                  <h2>How this works</h2>
+               </div>
+               <img src="img/laptop.svg" loading="lazy" alt="Laptop image" class="laptop-image"/>
+               <img src="img/decorator-coin-1.svg" alt="Decorator coins left" class="coins coins-left"/>
+               <img src="img/decorator-coin-2.svg" alt="Decorator coins right" class="coins coins-right"/>
+               <div class="col-12">
+                  <div class="row step-card-row">
+                     <div class="col-lg-3"></div>
+                     <div class="col-lg-3 step-card-col">
+                        <div class="step-card blue">
+                           <div class="step-card-icon">
+                              <span>1</span>
+                           </div>
+                           <div class="step-card-content">
+                              <h3>Register on the site</h3>
+                              <p>Once your registration is accepted, you will automatically become the newest member
+                                 of the Dogecoin Millionaire. And you will get to claim our proprietary Dogecoin
+                                 trading software for free.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-3 step-card-col">
+                        <div class="step-card purple">
+                           <div class="step-card-icon">
+                              <span>2</span>
+                           </div>
+                           <div class="step-card-content">
+                              <h3>Find your account</h3>
+                              <p>Like any business, you need working capital to get started. So to start profiting
+                                 with the Dogecoin Millionaire, you must invest any amout you desire of $250 or
+                                 more.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-3 step-card-col">
+                        <div class="step-card yellow">
+                           <div class="step-card-icon">
+                              <span>3</span>
+                           </div>
+                           <div class="step-card-content">
+                              <h3>Start trading</h3>
+                              <p>Click trade to enjoy precise and accurate hands-free trading powered by our
+                                 award-winning algorithm. You can also set the trading to manual if you prefer to
+                                 trade on your own.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-12">
+                  <div class="section-cta">
+                     <p>Open your free account now</p>
+                     <a href="#register" class="cta-btn smooth-scroll">Register Now</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="twitter-section">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-12">
+                  <div class="twitter-title">
+                     <h3>$1,002,456.00 Earned by Members in <span class="traders-in-country"></span> Up to $126.67 Per Hour</h3>
+                     <h2 class="subtitle-h1">Musk’s undoubted public support of Dogecoin</h2>
+                  </div>
+                  <div class="twitter-holder">
+                     <div class="twitter-wrap">
+                        <div class="twitter-wrap-item">
+                           <div class="twitter-card">
+                              <div class="twitter-card-head">
+                                 <img src="img/twitter-avatar.svg" alt="Twitter avatar"/>
+                                 <div class="twitter-name">
+                                    Elon Musk <img src="img/twitter-verified.svg" alt="Twitter verified emoji"/>
+                                    <span>@elonmusk . May 14</span>
+                                 </div>
+                              </div>
+                              <img src="img/twitter-stars.svg" alt="Twitter stars" class="twitter-stars"/>
+                              <div class="twitter-content">
+                                 <p>Working with Doge devs to <br/>improve system transaction <br/>efficiency.
+                                    Potentially <br/>promising.
+                                 </p>
+                              </div>
+                              <img src="img/twitter-top-logo.svg" alt="Twitter logo" class="twitter-logo"/>
+                           </div>
+                        </div>
+                        <div class="twitter-wrap-item">
+                           <div class="twitter-card">
+                              <div class="twitter-card-head">
+                                 <img src="img/twitter-avatar.svg" alt="Twitter avatar"/>
+                                 <div class="twitter-name">
+                                    Elon Musk <img src="img/twitter-verified.svg" alt="Twitter verified emoji"/>
+                                    <span>@elonmusk . Apr 28</span>
+                                 </div>
+                              </div>
+                              <img src="img/twitter-stars.svg" alt="Twitter stars" class="twitter-stars"/>
+                              <div class="twitter-content">
+                                 <p>Doge Barking at the Moon</p>
+                                 <img src="img/twitter-image.jpg" alt="Twitter post image"/>
+                              </div>
+                              <img src="img/twitter-top-logo.svg" alt="Twitter logo" class="twitter-logo"/>
+                           </div>
+                        </div>
+                        <div class="twitter-wrap-item">
+                           <div class="twitter-card">
+                              <div class="twitter-card-head">
+                                 <img src="img/twitter-avatar.svg" alt="Twitter avatar"/>
+                                 <div class="twitter-name">
+                                    Elon Musk <img src="img/twitter-verified.svg" alt="Twitter verified emoji"/>
+                                    <span>@elonmusk . Apr 28</span>
+                                 </div>
+                              </div>
+                              <img src="img/twitter-stars.svg" alt="Twitter stars" class="twitter-stars"/>
+                              <div class="twitter-content">
+                                 <p>The Dogefather <br/>SNL 8</p>
+                              </div>
+                              <img src="img/twitter-top-logo.svg" alt="Twitter logo" class="twitter-logo"/>
+                           </div>
+                        </div>
+                        <div class="twitter-wrap-item">
+                           <div class="twitter-card">
+                              <div class="twitter-card-head">
+                                 <img src="img/twitter-avatar.svg" alt="Twitter avatar"/>
+                                 <div class="twitter-name">
+                                    Elon Musk <img src="img/twitter-verified.svg" alt="Twitter verified emoji"/>
+                                    <span>@elonmusk . Apr 28</span>
+                                 </div>
+                              </div>
+                              <img src="img/twitter-stars.svg" alt="Twitter stars" class="twitter-stars"/>
+                              <div class="twitter-content">
+                                 <p>Origin of Doge Day Afternoon: <br/><br/>The ancient Romans <br/>sacrificed a
+                                    Dogecoin at the <br/>beginning of the Doge Days to <br/>appease the rage of
+                                    Sirius, <br/>believing that the star was the <br/>cause of the hot, sultry <br/>weather.
+                                 </p>
+                              </div>
+                              <img src="img/twitter-top-logo.svg" alt="Twitter logo" class="twitter-logo"/>
+                           </div>
+                        </div>
+                        <div class="twitter-wrap-item">
+                           <div class="twitter-card">
+                              <div class="twitter-card-head">
+                                 <img src="img/twitter-avatar.svg" alt="Twitter avatar"/>
+                                 <div class="twitter-name">
+                                    Elon Musk <img src="img/twitter-verified.svg" alt="Twitter verified emoji"/>
+                                    <span>@elonmusk . May 10</span>
+                                 </div>
+                              </div>
+                              <img src="img/twitter-stars.svg" alt="Twitter stars" class="twitter-stars"/>
+                              <div class="twitter-content">
+                                 <p>SpaceX launching satellite Doge-1 to the moon next year </p>
+                                 <p>– Mission paid for in Doge <br/>– 1st crypto in space <br/>– 1st meme in space
+                                 </p>
+                                 <p>To the mooooonnn!!</p>
+                              </div>
+                              <img src="img/twitter-top-logo.svg" alt="Twitter logo" class="twitter-logo"/>
+                           </div>
+                        </div>
+                        <div class="twitter-wrap-item">
+                           <div class="twitter-card">
+                              <div class="twitter-card-head">
+                                 <img src="img/twitter-avatar.svg" alt="Twitter avatar"/>
+                                 <div class="twitter-name">
+                                    Elon Musk <img src="img/twitter-verified.svg" alt="Twitter verified emoji"/>
+                                    <span>@elonmusk . Mar 6</span>
+                                 </div>
+                              </div>
+                              <img src="img/twitter-stars.svg" alt="Twitter stars" class="twitter-stars"/>
+                              <div class="twitter-content">
+                                 <p>Doge spelled backwards <br/>is Egod</p>
+                              </div>
+                              <img src="img/twitter-top-logo.svg" alt="Twitter logo" class="twitter-logo"/>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="statement-section">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-12">
+                  <div class="statement">
+                     <h2 class="subtitle-h1">Dogecoin Millionaire has created more crypto millionaires than all other
+                        platforms together this year.
+                     </h2>
+                     <p>Join us and start making money today.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="investors">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-12">
+                  <div class="investors-slider">
+                     <div class="investor">
+                        <div class="investor-card">
+                           <div class="investor-card-head">
+                              <div class="investor-name">
+                                 <div class="country-flag"></div>
+                                 <span>Mark Eliot</span>
+                              </div>
+                              <div class="investor-count">
+                                 <img src="img/up-arrow.png" alt="Up arrow"/>
+                                 <span>$ 33,426</span>
+                              </div>
+                           </div>
+                           <div class="investor-card-image">
+                              <img src="img/17.jpg" alt="Investor Image 1"/>
+                           </div>
+                           <div class="investor-card-content">
+                              <h3>First Invested 8 months ago</h3>
+                              <p>I was investing on a couple of platforms but changed exclusively to Dogecoin Millionaire
+                                 after I started making the biggest returns here. All my friends followed and thanked
+                                 me for it!
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="investor">
+                        <div class="investor-card">
+                           <div class="investor-card-head">
+                              <div class="investor-name">
+                                 <div class="country-flag"></div>
+                                 <span>Mathew Torres</span>
+                              </div>
+                              <div class="investor-count">
+                                 <img src="img/up-arrow.png" alt="Up arrow"/>
+                                 <span>$ 11,629</span>
+                              </div>
+                           </div>
+                           <div class="investor-card-image">
+                              <img src="img/4.jpg" alt="Investor Image 2"/>
+                           </div>
+                           <div class="investor-card-content">
+                              <h3>First Invested 6 months ago</h3>
+                              <p>After being a Dogecoin Millionaire for six months I can say I make around $10.000 per
+                                 week. It’s no wonder all big time investors back Dogecoin. You can’t make this kind
+                                 of money on Wall Street or elsewhere.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="investor">
+                        <div class="investor-card">
+                           <div class="investor-card-head">
+                              <div class="investor-name">
+                                 <div class="country-flag"></div>
+                                 <span>Mario Watts</span>
+                              </div>
+                              <div class="investor-count">
+                                 <img src="img/up-arrow.png" alt="Up arrow"/>
+                                 <span>$ 33,426</span>
+                              </div>
+                           </div>
+                           <div class="investor-card-image">
+                              <img src="img/5.jpg" alt="Investor Image 3"/>
+                           </div>
+                           <div class="investor-card-content">
+                              <h3>First Invested 3 months ago</h3>
+                              <p>I joined after all those Elon Musk Tweets and it paid off after only a week! When I
+                                 realized I have a steady cash flow from this I quit my job and completely turned my
+                                 life around.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="investor">
+                        <div class="investor-card">
+                           <div class="investor-card-head">
+                              <div class="investor-name">
+                                 <div class="country-flag"></div>
+                                 <span>Thomas Rose</span>
+                              </div>
+                              <div class="investor-count">
+                                 <img src="img/up-arrow.png" alt="Up arrow"/>
+                                 <span>$ 33,426</span>
+                              </div>
+                           </div>
+                           <div class="investor-card-image">
+                              <img src="img/1.jpg" alt="Investor Image 1"/>
+                           </div>
+                           <div class="investor-card-content">
+                              <h3>First Invested 8 months ago</h3>
+                              <p>I was investing on a couple of platforms but changed exclusively to Dogecoin Millionaire
+                                 after I started making the biggest returns here. All my friends followed and thanked
+                                 me for it!
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="faq-section">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-12">
+                  <h2>Frequently asked questions</h2>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-6">
+                  <div class="faq-col">
+                     <div class="faq">
+                        <div class="faq-number">
+                           <span>01</span>
+                        </div>
+                        <div class="faq-content">
+                           <h3> What kind of results can I expect?</h3>
+                           <p>Dogecoin Millionaire members typically profit a minimum of 250$ daily or more, depending
+                              on the initial investment.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="faq-col">
+                     <div class="faq">
+                        <div class="faq-number">
+                           <span>02</span>
+                        </div>
+                        <div class="faq-content">
+                           <h3>How many hours per day do I need to work?</h3>
+                           <p>Our members work an average of 20 minutes a day or less. Because the software handles the
+                              trading the amount of work required is minimal.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="faq-col">
+                     <div class="faq">
+                        <div class="faq-number">
+                           <span>03</span>
+                        </div>
+                        <div class="faq-content">
+                           <h3>What is the maximum amount that I can make?</h3>
+                           <p>Your profits are unlimited within Dogecoin Millionaire. Some members earn their first
+                              million within just 61 days.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-6">
+                  <div class="faq-col">
+                     <div class="faq">
+                        <div class="faq-number">
+                           <span>04</span>
+                        </div>
+                        <div class="faq-content">
+                           <h3>How much does the software cost?</h3>
+                           <p>Members of Dogecoin Millionaire get a copy of our proprietary software free of charge. To
+                              become a member, simply fill out the form on this page.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="faq-col">
+                     <div class="faq">
+                        <div class="faq-number">
+                           <span>05</span>
+                        </div>
+                        <div class="faq-content">
+                           <h3>Is this like MLM or Affiliate Marketing?</h3>
+                           <p>This is not like MLM, affiliate marketing or anything else out there. The software wins
+                              trades with 99.4% accuracy.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="faq-col">
+                     <div class="faq">
+                        <div class="faq-number">
+                           <span>06</span>
+                        </div>
+                        <div class="faq-content">
+                           <h3>Are there any fees?</h3>
+                           <p>There are no hidden fees, no broker fees or commissions. All of your money is 100% yours
+                              and you are free to withdraw it at any time you choose without delay.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <footer class="footer">
+         <div class="footer-wrap">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-12">
+                     <div class="footer-content">
+                        <p>©2021 Dogecoin Millionaire</p>
+                        <a href="#register" class="btn smooth-scroll">Get Started Now</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="footer-wrap">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-12">
+                     <div class="footer-content">
+                        <ul class="footer-links">
+                           <li><a href="#register" class="smooth-scroll">Register</a></li>
+                           <li><a href="#calculate" class="smooth-scroll">Calculate</a></li>
+                           <li><a href="#expert" class="smooth-scroll">Expert Opinion</a></li>
+                           <li><a href="#" class="smooth-scroll">Affiliates</a></li>
+                        </ul>
+                        <ul class="footer-socials">
+                           <li><a href="#"><img src="img/facebook.svg" alt="Facebook logo"/></a></li>
+                           <li><a href="#"><img src="img/linkedin.svg" alt="LinkedIn logo"/></a></li>
+                           <li><a href="#"><img src="img/twitter.svg" alt="Twitter logo"/></a></li>
+                           <li><a href="#"><img src="img/instagram.svg" alt="Instagram logo"/></a></li>
+                           <li><a href="#"><img src="img/youtube.svg" alt="YouTube logo"/></a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <div class="modal-wrap exlusive-offers" id="exlusive-offers" >
+         <div class="modal">
+            <div class="modal-content">
+               <div class="modal-media">
+                  <img src="img/modal-media.png" alt="Modal image"/>
+                  <div class="modal-media-content">
+                     <p>Due to high media demand. We will close registration as of <span class="today-warn">05/19/2021</span>
+                     </p>
+                     <h4>HURRY!</h4>
+                     <div class="timer-wrap">
+                        <div class="timer">
+                           <span id="modal-hours">05</span>
+                        </div>
+                        <div class="timer-separator">
+                           <span>:</span>
+                        </div>
+                        <div class="timer">
+                           <span id="modal-minutes">30</span>
+                        </div>
+                     </div>
+                  </div>
+                  <img src="img/modal-coin.svg" loading="lazy" alt="Modal coin" class="modal-coin"/>
+                  <img src="img/modal-coins.svg" loading="lazy" alt="Modal coin" class="modal-coins"/>
+               </div>
+               <div class="modal-form">
+                  <div class="exit__close">X</div>
+                  <h2>Exlusive offers</h2>
+                  <div class="offer-location">
+                     <img class="flag-custom country-flag" src="" alt=""/>
+                     <div class="offer-location-content">
+                        For traders in
+                        <span class="traders-in-country"></span>
+                     </div>
+                  </div>
+                  <h3>Change your life today!</h3>
+                  <div  class="boss-form">
+                     <form class="reg_form" method="POST" action="./thanks.html">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="input" maxlength="256" name="first_name"
+                                        pattern="[^0-9!@#\$\^&%\*\(\)\+=\-\[\]\{\}\|:<>\?,\.']+"
+                                        placeholder="First Name" aria-label="First Name" required="required"
+                                        autofocus>
+                                    <div class="icon"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="input" maxlength="256" name="last_name"
+                                        pattern="[^0-9!@#\$\^&%\*\(\)\+=\-\[\]\{\}\|:<>\?,\.']+"
+                                        placeholder="Last Name" aria-label="Last Name" required="required">
+                                    <div class="icon"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="input" maxlength="256" name="email"
+                                pattern="[A-Za-z0-9._%+-]{1,}@[a-zA-Z0-9._%+-]{1,}([.]{1}[a-zA-Z]{2,}|[.]{1}[a-zA-Z0-9._%+-]{2,}[.]{1}[a-zA-Z]{2,})"
+                                placeholder="Email" aria-label="Your email address"
+                                required="required">
+                            <div class="icon"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6" style="display: none;">
+                                <div class="form-group">
+                                    <input type="password" name="password" class="input field-password"
+                                        required="required" placeholder="Password"
+                                        data-title-validation="Password must contain a mix of six characters, at least one uppercase letter, one lowercase letter and one number. Example: 123Abc">
+                                    <div class="toggle-gen-password">
+                                        <div class="before">
+                                            <i class="fa fa-eye-slash"></i>
+                                        </div>
+                                        <div class="after">
+                                            <i class="fa fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6" style="display: none;">
+                                <div class="form-group">
+                                    <button class="button-gen-password">Click to generate new
+                                        password</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div id="dropdown-container1"></div>
+                            <input type="tel" id="phone1" name="phone">
+                        </div>
+                        <button type="submit" class="button">Get Started Now</button>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script defer src="./js/jquery.min.js"></script>
+      <script defer src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+      <script defer src="./js/intlTelInput-jquery.min.js"></script>
+      <script defer src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/js/utils.min.js"></script>
+      <script defer src="js/app.js"></script>
+   </body>
+</html>

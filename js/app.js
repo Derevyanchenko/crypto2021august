@@ -12,6 +12,7 @@ $(document).ready(function () {
         allowDropdown:true,
         autoPlaceholder:"polite",
         separateDialCode:true,
+        dropdownContainer: false,
         initialCountry: country
     });
 
@@ -25,6 +26,21 @@ $(document).ready(function () {
     $("span.traders-in-country").text(country_Name);
     $("img.flag-custom.country-flag").attr("src", country_Flag);
   });
+
+  // On scroll fix img height
+  var scr = 0;
+
+  $(window).on('scroll', function () {
+  if($('.track-wrap').length) {
+
+    if (scr < 2) {
+      let imgHeight = $('.track-earnings').height();
+      $('.track-wrap').height(imgHeight);
+      scr++;
+    }
+
+  }
+});
 
 });
 
@@ -141,10 +157,10 @@ $(function() {
     });
   }
 
-  if($('.track-wrap').length) {
-    let imgHeight = $('.track-earnings > img').height();
-    $('.track-wrap').height(imgHeight);
-  }
+  // if($('.track-wrap').length) {
+  //   let imgHeight = $('.track-earnings').height();
+  //   $('.track-wrap').height(imgHeight);
+  // }
 
 
   // Success modal
@@ -272,9 +288,10 @@ $(function() {
   // On resize
   $(window).resize(function () {
     if($('.track-wrap').length) {
-      let imgHeight = $('.track-earnings > img').height();
+      let imgHeight = $('.track-earnings').height();
       $('.track-wrap').height(imgHeight);
     }
   });
+
 
 });

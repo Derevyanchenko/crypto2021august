@@ -40,7 +40,52 @@ $(document).ready(function () {
     }
 
   }
-});
+  });
+
+  /////////////////Btn Footer open modals /////////
+  //////////////////WebsiteAgreement//////////////
+  $('.modal_websiteA').on('click', function() {
+    $('#modalWebsiteAgreement').show();
+  });
+  $('#close_btn_modal_Agreement').on('click', function() {
+    $('#modalWebsiteAgreement').hide();
+  });
+  //////////////////Risk Disclaimer//////////////
+  $('.modal_riskD').on('click', function() {
+    $('#modalRiskDisclaimer').show();
+  });
+  $('#close_btn_modal_Risk').on('click', function() {
+    $('#modalRiskDisclaimer').hide();
+  });
+  //////////////////Privacy Policy //////////////
+  $('.modal_privacyP').on('click', function() {
+    $('#modalPrivacyPolicy').show();
+  });
+  $('#close_btn_modal_PrivacyPolicy').on('click', function() {
+    $('#modalPrivacyPolicy').hide();
+  });
+  //////////////////Spam Disclaimer //////////////
+  $('.modal_spamD').on('click', function() {
+    $('#modalSpamDisclaimer').show();
+  });
+  $('#close_btn_modal_SpamDisclaimer').on('click', function() {
+    $('#modalSpamDisclaimer').hide();
+  });
+  //////////////////Report Abuse//////////////
+  $('.modal_reportA').on('click', function() {
+    $('#modalReportAbuse').show();
+  });
+  $('#close_btn_modal_ReportAbuse').on('click', function() {
+    $('#modalReportAbuse').hide();
+  });
+  //////////////////Contact Us//////////////
+  $('.modal_contactU').on('click', function() {
+    $('#modalContactUs').show();
+  });
+  $('#close_btn_modal_ContactUs').on('click', function() {
+    $('#modalContactUs').hide();
+  });
+
 
 });
 

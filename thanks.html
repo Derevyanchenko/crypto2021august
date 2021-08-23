@@ -71,145 +71,1050 @@
               </h2>
           </div>
       </section>
-
       <footer class="footer">
-        <div class="footer-wrap">
-           <div class="container-fluid">
-              <div class="row">
-                 <div class="col-12">
-                    <div class="footer-content">
-                       <p>©2021 Dogecoin Millionaire</p>
-                       <a href="#register" class="btn smooth-scroll">Get Started Now</a>
-                    </div>
-                 </div>
+         <div class="footer-wrap">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-12">
+                     <div class="footer-content">
+                        <p>©2021 Dogecoin Millionaire</p>
+                        <a href="#register" class="btn smooth-scroll">Get Started Now</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="footer-wrap">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-12">
+                     <div class="footer-content">
+                        <ul class="footer-links">
+                           <!-- <li><a href="#register" class="smooth-scroll">Register</a></li>
+                           <li><a href="#calculate" class="smooth-scroll">Calculate</a></li>
+                           <li><a href="#expert" class="smooth-scroll">Expert Opinion</a></li>
+                           <li><a href="#" class="smooth-scroll">Affiliates</a></li> -->
+                           <li><a class="modal_websiteA">Website Agreement</a></li>
+                           <li><a class="modal_riskD">Risk Disclaimer</a></li>
+                           <li><a class="modal_privacyP">Privacy Policy</a></li>
+                           <li><a class="modal_spamD">Spam Disclaimer </a></li>
+                           <li><a class="modal_reportA">Report Abuse</a></li>
+                           <li><a class="modal_contactU">Contact Us</a></li>
+                        </ul>
+                        <ul class="footer-socials">
+                           <li><a href="#"><img src="img/facebook.svg" alt="Facebook logo"/></a></li>
+                           <li><a href="#"><img src="img/linkedin.svg" alt="LinkedIn logo"/></a></li>
+                           <li><a href="#"><img src="img/twitter.svg" alt="Twitter logo"/></a></li>
+                           <li><a href="#"><img src="img/instagram.svg" alt="Instagram logo"/></a></li>
+                           <li><a href="#"><img src="img/youtube.svg" alt="YouTube logo"/></a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <div class="modal-wrap exlusive-offers" id="exlusive-offers" >
+         <div class="modal">
+            <div class="modal-content">
+               <div class="modal-media">
+                  <img src="img/modal-media.png" alt="Modal image"/>
+                  <div class="modal-media-content">
+                     <p>Due to high media demand. We will close registration as of <span class="today-warn">05/19/2021</span>
+                     </p>
+                     <h4>HURRY!</h4>
+                     <div class="timer-wrap">
+                        <div class="timer">
+                           <span id="modal-hours">05</span>
+                        </div>
+                        <div class="timer-separator">
+                           <span>:</span>
+                        </div>
+                        <div class="timer">
+                           <span id="modal-minutes">30</span>
+                        </div>
+                     </div>
+                  </div>
+                  <img src="img/modal-coin.svg" loading="lazy" alt="Modal coin" class="modal-coin"/>
+                  <img src="img/modal-coins.svg" loading="lazy" alt="Modal coin" class="modal-coins"/>
+               </div>
+               <div class="modal-form">
+                  <div class="exit__close">X</div>
+                  <h2>Exlusive offers</h2>
+                  <div class="offer-location">
+                     <img class="flag-custom country-flag" src="" alt=""/>
+                     <div class="offer-location-content">
+                        For traders in
+                        <span class="traders-in-country"></span>
+                     </div>
+                  </div>
+                  <h3>Change your life today!</h3>
+                  <div  class="boss-form">
+                     <form class="reg_form" method="POST" action="./thanks.html">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="input" maxlength="256" name="first_name"
+                                        pattern="[^0-9!@#\$\^&%\*\(\)\+=\-\[\]\{\}\|:<>\?,\.']+"
+                                        placeholder="First Name" aria-label="First Name" required="required"
+                                        autofocus>
+                                    <div class="icon"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="input" maxlength="256" name="last_name"
+                                        pattern="[^0-9!@#\$\^&%\*\(\)\+=\-\[\]\{\}\|:<>\?,\.']+"
+                                        placeholder="Last Name" aria-label="Last Name" required="required">
+                                    <div class="icon"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="input" maxlength="256" name="email"
+                                pattern="[A-Za-z0-9._%+-]{1,}@[a-zA-Z0-9._%+-]{1,}([.]{1}[a-zA-Z]{2,}|[.]{1}[a-zA-Z0-9._%+-]{2,}[.]{1}[a-zA-Z]{2,})"
+                                placeholder="Email" aria-label="Your email address"
+                                required="required">
+                            <div class="icon"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6" style="display: none;">
+                                <div class="form-group">
+                                    <input type="password" name="password" class="input field-password"
+                                        required="required" placeholder="Password"
+                                        data-title-validation="Password must contain a mix of six characters, at least one uppercase letter, one lowercase letter and one number. Example: 123Abc">
+                                    <div class="toggle-gen-password">
+                                        <div class="before">
+                                            <i class="fa fa-eye-slash"></i>
+                                        </div>
+                                        <div class="after">
+                                            <i class="fa fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6" style="display: none;">
+                                <div class="form-group">
+                                    <button class="button-gen-password">Click to generate new
+                                        password</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div id="dropdown-container1"></div>
+                            <input type="tel" id="phone1" name="phone">
+                        </div>
+                        <button type="submit" class="button">Get Started Now</button>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- footer popups -->
+
+       <!-- //////////////////modal window Agreement -->
+    <div id="modalWebsiteAgreement" class="footer_modal">
+      <div id="modalAgreement">
+          <div id="modal_Agreement_Block">
+              <a class="close-btn btnBlackCross" id="close_btn_modal_Agreement"></a>
+              <div class="intgrtn-text">
+                  <p align="center">
+                      <span><span style="font-size: medium;"><u><strong>TERMS AND
+                                      CONDITIONS</strong></u></span></span>
+                  </p>
+                  <p align="justify">&nbsp;</p>
+                  <p align="justify"><span><span style="font-size: medium;"><strong>1. Agreement
+                              </strong></span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">1.1&nbsp; These Terms and Conditions are
+                              deemed a binding agreement between the client and the Company</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">1.2&nbsp; By using or otherwise accessing
+                              the Services, or clicking to accept or agree to these Terms and Conditions where that
+                              option is made available, client agrees for eligibility for use of the Services and that
+                              client has read, understood, and accepted these Terms and Conditions. </span></span></p>
+                  <p align="justify">&nbsp;</p>
+                  <p align="justify"><span><span style="font-size: medium;"><strong>2. Eligibility
+                              </strong></span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">2.1&nbsp; Client is allowed to use the
+                              Services if he/she are permitted in accordance with the law of their residence and/or
+                              domicile. </span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">2.2&nbsp; The Company has no obligation or
+                              capability to verify whether client is eligible to use the Service and bears no
+                              responsibility for your use of the Service.</span></span></p>
+                  <p align="justify">&nbsp;</p>
+                  <p align="justify"><span><span style="font-size: medium;"><strong>3.&nbsp;</strong><strong>Company
+                                  Responsibilities and Obligations</strong></span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">3.1&nbsp; The Company's marketing is
+                              carried out in the best possible manner according to their ability. </span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">3.2&nbsp; The Company adheres to Best
+                              Practices that the sites do not contain and will not contain any material that is
+                              discriminatory, abusive, or libelous or in any way inappropriate.</span></span></p>
+                  <p align="justify">&nbsp;</p>
+                  <p align="justify"><span><span style="font-size: medium;"><strong>4. Waiver</strong></span></span>
+                  </p>
+                  <p align="justify"><span><span style="font-size: medium;">4.1 The Company does not define, suggest
+                              and execute any control over prices or exchange rates of third parties. The Company is
+                              not a counterparty to any deal concluded. </span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">4.2 Any dispute client has concerning a
+                              transaction client shall resolve with such third party directly without involving the
+                              Company.</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">4.3 The Company does not regulate services
+                              of third parties and has no opportunity to affect the process of providing these
+                              services and its results. </span></span></p>
+                  <p align="justify">&nbsp;</p>
+                  <p align="justify"><span><span style="font-size: medium;"><strong>5.
+                                  Indemnification</strong></span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">5.1&nbsp; Client agrees to release and to
+                              indemnify, defend and hold harmless the Company and its parents, subsidiaries,
+                              affiliates and agencies, as well as the officers, directors, employees, shareholders and
+                              representatives of any of the foregoing entities, from and against any and all losses,
+                              liabilities, expenses, damages, costs (including attorneys’ fees and court costs) claims
+                              or actions of any kind whatsoever arising or resulting from client’s use of the services
+                              of third parties and client’s violation of these Terms and Conditions.</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">5.2&nbsp; The Company reserves the right,
+                              at its own expense, to assume exclusive defense and control of any matter otherwise
+                              subject to indemnification by client and, in such case, client agrees to cooperate with
+                              the Company in the defense of such matter. </span></span></p>
+                  <p align="justify">&nbsp;</p>
+                  <p align="justify"><span><span style="font-size: medium;"><strong>6. Third-Party Websites and
+                                  Content </strong></span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">6.1&nbsp; The Platform may contain links
+                              to websites owned or operated by parties other than the Company. Such links are provided
+                              for client’s reference only. </span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">6.2&nbsp; The Company does not monitor or
+                              control resources outside the Platform and is not responsible for their content. The
+                              inclusion of links to third party resources does not imply any endorsement of the
+                              material in the Software or, unless expressly disclosed otherwise, any sponsorship,
+                              affiliation or association with its owner, operator or sponsor, nor does such inclusion
+                              of links imply that the Company is authorized to use any trade name, trademark, logo,
+                              legal or official seal, or copyrighted symbol that may be reflected in the linked
+                              website. </span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">6.3&nbsp; The Company does not control the
+                              third-party content or monitor it for compliance with any requirement (e.g.
+                              truthfulness, integrity, legality). Accordingly, the Company does not bear any liability
+                              arisen in connection with client’s access or use of the third-party
+                              content.</span></span></p>
+                  <p align="justify">&nbsp;</p>
+                  <p align="justify"><span><span style="font-size: medium;"><strong>7. Risk
+                                  warning</strong></span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">By accepting these Terms and Conditions,
+                              client also acknowledge that client have been warned of the following
+                              risks:</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">7.1&nbsp; New Technology. Client
+                              understands that the service is not limited to the company platform, including other
+                              associated and related technologies that are new and untested and outside of the
+                              Company’s control and adverse changes in market forces or the technology, broadly
+                              construed, will excuse the nonperformance by the Company under this Agreement including
+                              temporary interruption or permanent termination of your access to the Software and
+                              Services. </span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">7.2&nbsp; Unfavorable regulatory
+                              environment. The service has been the subject of scrutiny by various regulatory bodies
+                              around the world. The functioning of the platform could be impacted by one or more
+                              regulatory inquiries or actions, including but not limited to restrictions of use of
+                              cryptocurrencies. </span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">7.3&nbsp; Risk of theft and hacking.
+                              Hackers or other groups or organizations may attempt to steal your data and password in
+                              any number of ways. </span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">7.4&nbsp; Risk of security weaknesses of
+                              the Platform. There is a risk that the Platform may unintentionally include weaknesses
+                              or bugs in the source code.</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">7.5&nbsp; Internet transmission risks.
+                              Client acknowledges that there are risks associated with using the platform and Services
+                              including, but not limited to, the failure of hardware, software, and internet
+                              connections. Client acknowledge that the Company shall not be responsible for any
+                              communication failures, disruptions, errors, distortions or delays client may experience
+                              when using the Software and Services, howsoever caused. </span></span></p>
+                  <p align="justify">&nbsp;</p>
+                  <p align="justify"><span><span style="font-size: medium;"><strong>8. Warranties and
+                                  Representation</strong></span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;"> By entering these Terms and Conditions
+                              client warrants and represents that: </span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">8.1&nbsp; Client has full capacity to
+                              contract under applicable law;</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">8.2&nbsp; Client will only be transacting
+                              via the Platform with legally-obtained funds that belong to client;</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">8.3&nbsp; Client will not be furthering,
+                              performing, undertaking, engaging in, aiding, or abetting any unlawful activity through
+                              your relationship with us or through your use of the Software;</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">8.4&nbsp; Client will not use the platform
+                              for illegal purposes, including money laundering of criminal proceeds, transfer or
+                              receipt of payment for planning, preparation or commitment of crime, for financing the
+                              terrorism and illegal trade; </span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">8.5&nbsp; Client will not use the platform
+                              for any purpose prohibited by these Terms or in any manner that could damage, disable,
+                              overburden, or impair the Company; </span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">8.6&nbsp; Client will be complying with
+                              and obeying all applicable laws, including but not limited to securities and capital
+                              market legislation, anti-money laundering and counterfeiting terrorism, consumer
+                              protection laws, and financial promotion. </span></span></p>
+                  <p align="justify">&nbsp;</p>
+                  <p align="justify"><span><span style="font-size: medium;"><strong>9. Warranties; Exclusion of
+                                  Liability; Indemnification</strong></span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">9.1&nbsp; The Platform is provided “as
+                              is”. The Platform is under development, the Company cannot guarantee that all program
+                              functions will be available for any period in the future or that the functionality of
+                              the program will not change dramatically. </span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">9.2&nbsp; The Company and its affiliates
+                              make no representations or warranties of any kind, whether express, implied, statutory
+                              or otherwise regarding the Platform, including any warranty that the Platform will be
+                              uninterrupted, error free or free of harmful components, secure or not otherwise lost or
+                              damaged. </span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">9.3&nbsp; Except to the extent prohibited
+                              by law, the Company and its affiliates disclaim all warranties, including any implied
+                              warranties of merchantability, satisfactory quality, fitness for a particular purpose,
+                              non-infringement, or quiet enjoyment, and any warranties arising out of any course of
+                              dealings, usage or trade. </span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">9.4&nbsp; The Company shall not have any
+                              liability or responsibility for any errors or omissions in performance of the Platform,
+                              for your action or inaction in connection with the Software or for any damage to your
+                              computer or data or funds or any other damage client may incur in connection with the
+                              Software. </span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">9.5&nbsp; Client’s use of the Platform is
+                              at own risk. In no event shall the Company be liable for any direct, indirect, punitive,
+                              incidental, special or consequential damages arising out of or in any way connected with
+                              the use of the Software, the delay or inability to use the Software or otherwise arising
+                              in connection with the Software whether based on contract, tort, strict liability or
+                              otherwise, even if advised of the possibility of any such damages. </span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">9.6&nbsp; Client agrees to defend,
+                              indemnify and hold the Company harmless from and against any and all claims, damages,
+                              costs and expenses, including attorneys' fees, arising from or related to client’s use
+                              of the Platform and Services.</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">9.7&nbsp; The Company makes no
+                              representation that Services can be received are applicable or appropriate for use in
+                              all jurisdictions..</span></span></p>
+                  <p align="justify">&nbsp;</p>
+                  <p align="justify"><span><span style="font-size: medium;"><strong>10. Taxes</strong></span></span>
+                  </p>
+                  <p align="justify"><span><span style="font-size: medium;"> The Company bears no liability for
+                              determining whether taxes apply to any of client’s transactions, or for collecting,
+                              reporting, or remitting any taxes arising from any transaction. The Company does hereby
+                              recommend that you seek an independent consultant's advice with respect to any tax
+                              liability that you may bear with respect to the tax jurisdiction that you may reside
+                              in.</span></span></p>
+                  <p align="justify">&nbsp;</p>
+                  <p align="justify"><span><span style="font-size: medium;"><strong>11.
+                                  Assignment</strong></span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">11.1&nbsp; Client may not transfer or
+                              assign these Terms and Conditions or any rights or obligations he/she has under these
+                              Terms and Conditions without our prior written consent.</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">11.2&nbsp; The Company reserves the right
+                              to freely assign or transfer these Terms and Conditions and the rights and obligations
+                              under these Terms and Conditions to any third party at any time without prior notice or
+                              consent. </span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">11.3&nbsp; If client objects to such
+                              transfer or assignment, client may stop using the Platform and terminate these Terms and
+                              Conditions by contacting the Company. </span></span></p>
+                  <p align="justify">&nbsp;</p>
+                  <p align="justify"><span><span style="font-size: medium;"><strong>12. Jurisdiction and Applicable
+                                  Law </strong></span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">12.1&nbsp; The Terms and conditions and
+                              any legal relationship between the Parties arising out of or in connection with them
+                              shall be governed by and construed in accordance with the laws of England and Wales
+                              without regard to its conflict of laws rules. </span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">12.2&nbsp; The Parties settle all their
+                              disputes arising out of or in connection with the Terms and conditions in accordance
+                              with the laws of England and Wales.</span></span></p>
+                  <p align="justify">&nbsp;</p>
+                  <p align="justify"><span><span style="font-size: medium;"><strong>13. Dispute
+                                  Settlement</strong></span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">13.1&nbsp; The Parties agree to try in
+                              good faith to settle through negotiations any dispute, disagreement or claim arising out
+                              of or in connection with execution, termination or rescission of these terms and
+                              conditions. </span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">13.2&nbsp; Any dispute arising out of or
+                              in connection with this contract, including any question regarding its existence,
+                              validity or termination, shall be referred to and finally resolved by arbitration under
+                              the LCIA Rules, which Rules are deemed to be incorporated by reference into this
+                              clause.<br></span></span><span><span
+                              style="font-size: medium;"><br></span></span><span><span style="font-size: medium;">The
+                              number of arbitrators shall be three.<br></span></span><span><span
+                              style="font-size: medium;"><br> </span></span><span><span style="font-size: medium;">The
+                              seat, or legal place, of arbitration shall be London, United Kingdom.</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">13.3&nbsp; The language to be used in the
+                              arbitral proceedings shall be English.</span></span></p>
+                  <p align="justify">&nbsp;</p>
+                  <p align="justify"><span><span style="font-size: medium;"><strong>14. The company reserves the right
+                                  to refuse or exclude applicants and accounts</strong></span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">14.1&nbsp; The Company may refuse at any
+                              time any new customer, and/or may close a customer's account if the Company believes
+                              that it is necessary to comply with the Company's policies, and/or of protection of the
+                              Company’s best interests.</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">14.2 The Company may refuse any applicant
+                              or close any account, if the Company reasonably believes that it would be necessary to
+                              comply with the Company's policies, or for the protection of the Company’s best
+                              interests. If the user doesn’t comply- or breaks any part of this Agreement, the Company
+                              may close the account(s) and take other legal actions or any other legal measures to
+                              protect the Company’s interests.</span></span></p>
+                  <p align="justify">&nbsp;</p>
+                  <p align="justify"><span><span
+                              style="font-size: medium;"><strong>15.</strong>&nbsp;<strong>Confidentiality and
+                                  Confidential Information</strong></span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">The user shall not use any confidential
+                              information of any kind for its own commercial or other purposes, and may not share such
+                              confidential information with any person or with any third-party, either directly or
+                              indirectly without the prior written consent from the Company.&nbsp; The user will not
+                              use confidential information for any purposes other than for fulfilling the obligations
+                              of this Agreement.</span></span></p>
+                  <p align="justify">&nbsp;</p>
+                  <p align="justify"><span><span style="font-size: medium;"><strong>16. Changes to these Terms and
+                                  Conditions</strong></span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">16.1&nbsp; The Company reserves the right,
+                              at any time and in its own discretion, to change, delete or add items to this Agreement,
+                              and this without the obligation to give prior notice in writing. If necessary, a written
+                              notice will be sent to the e-mail address registered.</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">16.2&nbsp; The Company reserves the rights
+                              to freeze the account and/or to reduce the balance of the account if the traffic created
+                              by the user has been made through fraudulent means or in violation of terms &amp;
+                              conditions.</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">16.3&nbsp; The user is hereby agreeing
+                              that he will not create your own, or amend&nbsp;in any way whatsoever, creative media
+                              supplied to him by the company unless he has received prior written consent to do so.
+                              Any amendments to our creative media is a breach or our terms and
+                              conditions.</span></span></p>
+                  <p align="justify">&nbsp;</p>
+                  <p align="justify"><span><span style="font-size: medium;"><strong>17. Miscellaneous
+                              </strong></span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">17.1&nbsp; All communications and
+                              documents to be made or given pursuant to these Terms and Conditions must be in the
+                              English language.</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">17.2&nbsp; These Terms and Conditions
+                              constitute the entire agreement and understanding of the Parties and supersedes any
+                              previous agreement between the Parties relating to the subject matter of these terms and
+                              conditions.</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">17.3&nbsp; If at any time any one or more
+                              of the provisions of these terms and conditions is or becomes illegal, invalid or
+                              unenforceable in any respect under any law of any jurisdiction neither the legality,
+                              validity or enforceability of the remaining provisions of these terms and conditions nor
+                              the legality, validity or enforceability of such provision under the law of any other
+                              jurisdiction shall be in any way affected or impaired as a result. </span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">17.4&nbsp; Headings are inserted for the
+                              convenience of the parties only and are not to be considered when interpreting this
+                              Agreement. Words in the singular mean and include the plural and vice versa.
+                          </span></span></p>
+                  <p align="justify">&nbsp;</p>
+                  <p align="justify">&nbsp;&nbsp;</p>
+                  <p align="justify">&nbsp;</p>
               </div>
-           </div>
-        </div>
-        <div class="footer-wrap">
-           <div class="container-fluid">
-              <div class="row">
-                 <div class="col-12">
-                    <div class="footer-content">
-                       <ul class="footer-links">
-                          <li><a href="#register" class="smooth-scroll">Register</a></li>
-                          <li><a href="#calculate" class="smooth-scroll">Calculate</a></li>
-                          <li><a href="#expert" class="smooth-scroll">Expert Opinion</a></li>
-                          <li><a href="#" class="smooth-scroll">Affiliates</a></li>
-                       </ul>
-                       <ul class="footer-socials">
-                          <li><a href="#"><img src="img/facebook.svg" alt="Facebook logo"/></a></li>
-                          <li><a href="#"><img src="img/linkedin.svg" alt="LinkedIn logo"/></a></li>
-                          <li><a href="#"><img src="img/twitter.svg" alt="Twitter logo"/></a></li>
-                          <li><a href="#"><img src="img/instagram.svg" alt="Instagram logo"/></a></li>
-                          <li><a href="#"><img src="img/youtube.svg" alt="YouTube logo"/></a></li>
-                       </ul>
-                    </div>
-                 </div>
+
+          </div>
+      </div>
+  </div>
+
+  <!-- //////////////////modal window Risk Disclaimer -->
+  <div id="modalRiskDisclaimer" class="footer_modal">
+      <div id="modalRisk">
+          <div id="modal_Risk_Block">
+              <a class="close-btn btnBlackCross" id="close_btn_modal_Risk"></a>
+              <div class="intgrtn-text">
+                  <p class="western" align="center"><span
+                          style="color: #212121;"><u><strong>Disclaimer</strong></u></span></p>
+                  <p class="western">&nbsp;</p>
+                  <p class="western"><span style="color: #212121;"><u><strong>Risk Warning:</strong></u></span></p>
+                  <p align="justify"><span style="font-family: Calibri, serif;"><span
+                              style="font-size: small;"><span><span style="font-size: medium;">1.1.&nbsp; The Company
+                                      is not responsible for any direct, indirect or consequential losses as a result
+                                      of using the Service. </span></span></span></span></p>
+                  <p align="justify"><span style="font-family: Calibri, serif;"><span
+                              style="font-size: small;"><span><span style="font-size: medium;">1.2.&nbsp; New
+                                      Technology. Client understands that using the Service is not limited to company
+                                      platform, including other associated and related technologies are new and
+                                      untested and outside of your or the Company’s control and adverse changes in
+                                      market forces or the technology, broadly construed, will excuse the
+                                      nonperformance by the Company under this Agreement including temporary
+                                      interruption or permanent termination of your access to the Software and
+                                      Services. </span></span></span></span></p>
+                  <p align="justify"><span style="font-family: Calibri, serif;"><span
+                              style="font-size: small;"><span><span style="font-size: medium;">1.3.&nbsp; Unfavorable
+                                      regulatory environment. 4</span></span><sup><span><span
+                                          style="font-size: medium;">th</span></span></sup><span><span
+                                      style="font-size: medium;"> Industrial Revolution technologies have been the
+                                      subject of scrutiny by various regulatory bodies around the world. The
+                                      functioning of the Platform could be impacted by one or more regulatory
+                                      inquiries or actions, including but not limited to restrictions of use of the
+                                      Service. </span></span></span></span></p>
+                  <p align="justify"><span style="font-family: Calibri, serif;"><span
+                              style="font-size: small;"><span><span style="font-size: medium;">1.4.&nbsp; Risk of
+                                      theft and hacking. Hackers or other groups or organizations may attempt to steal
+                                      your data and password in any number of ways. </span></span></span></span></p>
+                  <p align="justify"><span style="font-family: Calibri, serif;"><span
+                              style="font-size: small;"><span><span style="font-size: medium;">1.5.&nbsp; Risk of
+                                      security weaknesses of the Platform. There is a risk that the Platform may
+                                      unintentionally include weaknesses or bugs in the source code.
+                                  </span></span></span></span></p>
+                  <p align="justify"><span style="font-family: Calibri, serif;"><span
+                              style="font-size: small;"><span><span style="font-size: medium;">1.6.&nbsp; Risk of
+                                      mining attacks.</span></span><span><span style="font-size: medium;"> The
+                                      Platform </span></span><span><span style="font-size: medium;">is susceptible to
+                                      mining attacks, including but not limited to double-spend attacks, majority
+                                      mining power attacks, “selfish-mining” attacks, and race condition attacks. Any
+                                      successful attacks can affect access to the Software and Services. Mining
+                                      attacks, as described above, may also target other networks, which the Software
+                                      interacts with, and consequently affect the Software performance and your access
+                                      to the Services.</span></span></span></span></p>
+                  <p align="justify"><span style="font-family: Calibri, serif;"><span
+                              style="font-size: small;"><span><span style="font-size: medium;">1.7.&nbsp; Internet
+                                      transmission risks. Client acknowledges that there are risks associated with
+                                      using the Software and Services including, but not limited to, the failure of
+                                      hardware, software, and internet connections. Client acknowledge that the
+                                      Company shall not be responsible for any communication failures, disruptions,
+                                      errors, distortions or delays client may experience when using the Software and
+                                      Services, howsoever caused. </span></span></span></span></p>
+                  <p class="western">&nbsp;</p>
               </div>
-           </div>
-        </div>
-     </footer>
-     <div class="modal-wrap exlusive-offers" id="exlusive-offers" >
-        <div class="modal">
-           <div class="modal-content">
-              <div class="modal-media">
-                 <img src="img/modal-media.png" alt="Modal image"/>
-                 <div class="modal-media-content">
-                    <p>Due to high media demand. We will close registration as of <span class="today-warn">05/19/2021</span>
-                    </p>
-                    <h4>HURRY!</h4>
-                    <div class="timer-wrap">
-                       <div class="timer">
-                          <span id="modal-hours">05</span>
-                       </div>
-                       <div class="timer-separator">
-                          <span>:</span>
-                       </div>
-                       <div class="timer">
-                          <span id="modal-minutes">30</span>
-                       </div>
-                    </div>
-                 </div>
-                 <img src="img/modal-coin.svg" alt="Modal coin" class="modal-coin"/>
-                 <img src="img/modal-coins.svg" alt="Modal coin" class="modal-coins"/>
+          </div>
+      </div>
+  </div>
+
+  <!-- //////////////////modal window Privacy Policy -->
+  <div id="modalPrivacyPolicy" class="footer_modal">
+      <div id="modalPrivacyPolicy_block">
+          <div id="modal_PrivacyPolicy_Block1">
+              <a class="close-btn btnBlackCross" id="close_btn_modal_PrivacyPolicy"></a>
+              <div class="intgrtn-text">
+                  <p align="center"><span><span style="font-size: medium;"><u><strong>Privacy
+                                      Policy</strong></u></span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;"><strong>1.
+                                  Introduction</strong></span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">1.1.&nbsp; This Privacy Policy explains
+                              how the Company uses client’s Personal Data (defined below) company provides access and
+                              utility through our platform via software, API (application program interface),
+                              technologies, products and/or functionalities (“Service”). In the course of providing
+                              Service, to abide by the laws in the jurisdictions that the company operates, and to
+                              improve services, company needs to collect and maintain personal information about the
+                              client. As a rule, the company never discloses any personal information about our
+                              customers to any non-affiliated third parties, except as described below. </span></span>
+                  </p>
+                  <p align="justify"><span><span style="font-size: medium;">1.2.&nbsp; Company may update this Privacy
+                              Policy at any time by posting the amended version on this site including the effective
+                              date of the amended version. </span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">1.3.&nbsp; Company communicates any
+                              material changes to this Privacy Policy via email.</span></span></p>
+                  <p align="justify">&nbsp;</p>
+                  <p align="justify"><span><span style="font-size: medium;"><strong>2.
+                                  Definitions</strong></span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;"><u>Personal Data</u></span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">As used herein, “Personal Data” means any
+                              information relating to an identified or identifiable natural person, such as a name, an
+                              identification number, location data, an online identifier or to one or more factors
+                              specific to the physical, economic, cultural or social identity of you as a natural
+                              person.</span></span></p>
+                  <p align="justify">&nbsp;</p>
+                  <p align="justify"><span><span style="font-size: medium;"><strong>3. Collection of Personal
+                                  Data</strong></span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">3.1.&nbsp; Company collects, processes,
+                              and stores Personal Data collected from you via client’s use of the Service or where
+                              client has given consent. </span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">3.2.&nbsp; This Personal Data may include
+                              contact details, copies of identification documentation provided by client or derived
+                              from publicly accessible databases, government identification number as well as
+                              information relating to devices or internet service (such as an IP address and a MAC
+                              number).Company collects information provided during the onboarding process, which may
+                              be a completed, incomplete, or abandoned process. </span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">3.3.&nbsp; Company collects, uses, stores,
+                              and transfers Personal Data, which may include the following:</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">(i)&nbsp; Operating within the European
+                              Economic Area (“EEA”).</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">(ii)&nbsp; Company collects, stores, and
+                              processes personal information in accordance with the Best Practices of Data Collection
+                              in the EU, in addition to GDPR [General Data Protection Regulation- (EU) REGULATION
+                              679/2016]. </span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">(iii)&nbsp; Types of client defined in
+                              APPENDIX A. </span></span></p>
+                  <p align="justify">&nbsp;</p>
+                  <p align="justify"><span><span style="font-size: medium;"><strong>4. Collection and Storing of Data
+                                  Outside the EU</strong></span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">As outlined above, company may collect
+                              Personal Data from customers located in the EEA. To facilitate the services company
+                              provides to customers located in the EEA, company requests explicit consent for the
+                              transfer of Personal Data from the EEA to outside of the area. If client is an
+                              individual located in the EEA and declines to consent to such transfer, client will no
+                              longer be able to use company services.</span></span></p>
+                  <p align="justify">&nbsp;</p>
+                  <p align="justify"><span><span style="font-size: medium;"><strong>5. Personal Data Usage
+                              </strong></span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">5.1.&nbsp; Company uses Personal Data to
+                              communicate with the client and to administer, deliver, improve, and personalize the
+                              Service. Company might also generate generic data out of any Personal Data collected and
+                              use it for company purposes. </span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">5.2.&nbsp; Company may also use such data
+                              to communicate with you in relation to other products or services offered by company
+                              and/or its partners. Company does not share Personal Data with third parties (other than
+                              partners in connection with their services) except where client have given consent and
+                              further detailed below.</span></span></p>
+                  <p align="justify">&nbsp;</p>
+                  <p align="justify"><span><span style="font-size: medium;"><strong>6. Company may share Client
+                                  Personal Data with third parties:</strong></span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">6.1.&nbsp; If company deems that sharing
+                              it is necessary to enforce the Terms of Service</span></span><span
+                          style="font-family: Calibri;"><span style="font-family: 'MS Gothic';"><span
+                                  style="font-size: medium;">；</span></span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">6.2.&nbsp; To comply with government
+                              agencies, including regulators, law enforcement and/or justice
+                              departments</span></span><span style="font-family: Calibri;"><span
+                              style="font-family: 'MS Gothic';"><span
+                                  style="font-size: medium;">；</span></span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">6.3.&nbsp; To third parties who provide
+                              services to the company (such as administration or technical services.</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">6.4.&nbsp; In connection with the sale or
+                              transfer of our business or any part thereof.</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">6.5. Additionally, company has implemented
+                              international standards to prevent money laundering, terrorist financing and
+                              circumventing trade and economic sanctions and will implement final rules and
+                              regulations when effective, which will likely require us to undertake due diligence on
+                              our customers. </span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">6.6.&nbsp; This may include the use of
+                              third-party data and service providers which we will cross-reference with your personal
+                              information.</span></span></p>
+                  <p align="justify">&nbsp;</p>
+                  <p align="justify"><span><span style="font-size: medium;"><strong>7. Storage of Personal
+                                  Data</strong></span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">7.1.&nbsp; The data that company collects
+                              from the client may be transferred to, and stored at, a destination outside of the EU.
+                          </span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">7.2.&nbsp; It may also be processed by
+                              staff operating outside of the EU who work for the company or for one of company
+                              suppliers. By submitting client personal data, client agrees to this transfer, storing
+                              or processing, except customers located in the EEA, as detailed above. </span></span>
+                  </p>
+                  <p align="justify"><span><span style="font-size: medium;">7.3.&nbsp; All information you provide to
+                              us is stored on company and/or third party cloud servers.</span></span></p>
+                  <p align="justify">&nbsp;</p>
+                  <p align="justify"><span><span style="font-size: medium;"><strong>8. Access and Correction of
+                                  Personal Data</strong></span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">8.1.&nbsp; Client has the right to obtain
+                              a copy of Personal Data upon request and ascertain whether the information company holds
+                              about client is accurate and up-to-date.</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">8.2.&nbsp; If any of the Personal Data is
+                              inaccurate, client may request to update the information. Client may also request to
+                              delete Personal Data, with exception that the company may refuse client deletion request
+                              in certain circumstances, such as compliance with law or legal purposes. For data
+                              access, correction, or deletion requests, please contact&nbsp;company. </span></span>
+                  </p>
+                  <p align="justify"><span><span style="font-size: medium;">8.3.&nbsp; In response to data access,
+                              correction, or deletion request, company will verify the requesting party’s identity to
+                              ensure that he or she is legally entitled to make such request. While company aims to
+                              respond to these requests free of charge, company reserve the right to charge client a
+                              reasonable fee should the request be repetitive or onerous.</span></span></p>
+                  <p align="justify">&nbsp;</p>
+                  <p align="justify"><span><span style="font-size: medium;"><strong>9.
+                                  Marketing</strong></span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">9.1. Company may communicate company news,
+                              promotions, and information relating to our products and services provided. Company may
+                              share Personal Data with third parties to help with marketing and promotional projects,
+                              or sending marketing communications. By using our services, client accepts this Privacy
+                              Policy and agrees to receive such marketing communications.</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">9.2. Customers can opt out from these
+                              marketing communications at any moment. If you do not want to receive these
+                              communications, please send an email to </span></span><span><span
+                              style="font-size: medium;">.</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">9.3.&nbsp; For product related
+                              communications, such as policy/terms updates and operational notifications, client will
+                              not be able to opt out of receiving such information.</span></span></p>
+                  <p align="justify">&nbsp;</p>
+                  <p align="justify"><span><span style="font-size: medium;"><strong>10. Information
+                                  Security</strong></span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">Company endeavors to protect clients from
+                              unauthorized access, alteration, disclosure, or destruction of Personal Data that the
+                              company collects and stores. Company take various measures to ensure information
+                              security, including encryption of the communications with SSL; required two-factor
+                              authentication for all sessions; periodic review of our Personal Data collection,
+                              storage, and processing practices; and restricted access to client’s Personal Data on a
+                              need-to-know bases for our employees and vendors who are subject to strict contractual
+                              confidentiality obligations.</span></span></p>
+                  <p align="justify">&nbsp;</p>
+                  <p align="justify"><span><span style="font-size: medium;"><strong>11. Contacting Company about
+                                  Privacy Concerns</strong></span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">If client has any questions about this
+                              Privacy Policy or the use of Personal Data, please contact company by sending an email
+                              to the following address </span></span><span><span style="font-size: medium;">&nbsp;with
+                              the subject “PRIVACY REQUEST”.</span></span></p>
+                  <p align="justify">&nbsp;</p>
+                  <p align="justify"><span><span style="font-size: medium;"><strong>12. Changes to Privacy
+                                  Policy</strong></span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">Any changes made to company Privacy Policy
+                              in the future will be posted on this company website and, when appropriate, company will
+                              notify client by email.</span></span></p>
+                  <p align="justify">&nbsp;</p>
+                  <p align="center">&nbsp;</p>
+                  <p align="center"><span><span style="font-size: medium;"><u><strong>APPENDIX
+                                      A</strong></u></span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;"><strong>Definition of
+                                  Clients</strong></span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">1. </span></span><span><span
+                              style="font-size: medium;"><u>Individual clients:</u></span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">Email address</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">Mobile phone number</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">Full legal name (including former name,
+                              and names in local language)</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">Nationality</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">Passport number, or any government issued
+                              ID number</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">Date of birth (“DOB”)</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">Proof of identity (e.g. passport, driver’s
+                              license, or government-issued ID)</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">Residential address</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">Proof of residency</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">Additional Personal Data or documentation
+                              at the discretion of our Compliance Team</span></span></p>
+                  <p align="justify">&nbsp;</p>
+                  <p align="justify"><span><span style="font-size: medium;">2. </span></span><span><span
+                              style="font-size: medium;"><u>Corporate clients:</u></span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">Corporate legal name (including the legal
+                              name in local language)</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">Incorporation/registration
+                              Information</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">Full legal name of all beneficial owners,
+                              directors, and legal representatives</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">Address (principal place of business
+                              and/or other physical locations)</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">Proof of legal existence</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">Description of the business</span></span>
+                  </p>
+                  <p align="justify"><span><span style="font-size: medium;">Percentage of ownership for
+                              Individual/corporate owners</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">Contact information of owners, principals,
+                              and executive management (as applicable)</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">Proof of identity (e.g., passport,
+                              driver’s license, or government-issued ID) for significant individual beneficial owner
+                              of the institutional customer entity</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">Personal Data for each entity’s
+                              significant beneficial owner of the institutional customer entity (see the “Individual
+                              Customer” section above for details on what Personal Data we collect for
+                              individuals)</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">Source of wealth</span></span></p>
+                  <p align="justify"><span><span style="font-size: medium;">Amount of bitcoin or other digital assets
+                              projected to be injected</span></span></p>
+                  <p align="justify">&nbsp;</p>
               </div>
-              <div class="modal-form">
-                 <div class="exit__close">X</div>
-                 <h2>Exlusive offers</h2>
-                 <div class="offer-location">
-                    <img class="flag-custom country-flag" src="" alt=""/>
-                    <div class="offer-location-content">
-                       For traders in
-                       <span class="traders-in-country"></span>
-                    </div>
-                 </div>
-                 <h3>Change your life today!</h3>
-                 <div  class="boss-form">
-                    <form class="reg_form" method="POST" action="./thanks.html">
-                       <div class="row">
-                           <div class="col-md-6">
-                               <div class="form-group">
-                                   <input type="text" class="input" maxlength="256" name="first_name"
-                                       pattern="[^0-9!@#\$\^&%\*\(\)\+=\-\[\]\{\}\|:<>\?,\.']+"
-                                       placeholder="First Name" aria-label="First Name" required="required"
-                                       autofocus>
-                                   <div class="icon"></div>
-                               </div>
-                           </div>
-                           <div class="col-md-6">
-                               <div class="form-group">
-                                   <input type="text" class="input" maxlength="256" name="last_name"
-                                       pattern="[^0-9!@#\$\^&%\*\(\)\+=\-\[\]\{\}\|:<>\?,\.']+"
-                                       placeholder="Last Name" aria-label="Last Name" required="required">
-                                   <div class="icon"></div>
-                               </div>
-                           </div>
-                       </div>
-                       <div class="form-group">
-                           <input type="email" class="input" maxlength="256" name="email"
-                               pattern="[A-Za-z0-9._%+-]{1,}@[a-zA-Z0-9._%+-]{1,}([.]{1}[a-zA-Z]{2,}|[.]{1}[a-zA-Z0-9._%+-]{2,}[.]{1}[a-zA-Z]{2,})"
-                               placeholder="Email" aria-label="Your email address"
-                               required="required">
-                           <div class="icon"></div>
-                       </div>
-                       <div class="row">
-                           <div class="col-md-6" style="display: none;">
-                               <div class="form-group">
-                                   <input type="password" name="password" class="input field-password"
-                                       required="required" placeholder="Password"
-                                       data-title-validation="Password must contain a mix of six characters, at least one uppercase letter, one lowercase letter and one number. Example: 123Abc">
-                                   <div class="toggle-gen-password">
-                                       <div class="before">
-                                           <i class="fa fa-eye-slash"></i>
-                                       </div>
-                                       <div class="after">
-                                           <i class="fa fa-eye"></i>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                           <div class="col-md-6" style="display: none;">
-                               <div class="form-group">
-                                   <button class="button-gen-password">Click to generate new
-                                       password</button>
-                               </div>
-                           </div>
-                       </div>
-                       <div class="form-group">
-                           <div id="dropdown-container1"></div>
-                           <input type="tel" id="phone1" name="phone">
-                       </div>
-                       <button type="submit" class="button">Get Started Now</button>
-                    </form>
-                 </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- //////////////////modal window Spam Disclaimer -->
+  <div id="modalSpamDisclaimer" class="footer_modal">
+      <div id="modalSpamDisclaimer_Block">
+          <div id="modal_SpamDisclaimer_Block1">
+              <a class="close-btn btnBlackCross" id="close_btn_modal_SpamDisclaimer"></a>
+              <div class="intgrtn-text">
+                  <p
+                      style="text-align: center;margin-bottom: 0.31in;line-height: 150%;background: rgb(255, 255, 255);">
+                      <u><strong>Spam Disclaimer</strong></u>
+                  </p>
+                  <p style="text-align: left;margin-bottom: 0.31in;line-height: 150%;background: rgb(255, 255, 255);">
+                      <u><strong>General</strong></u>
+                  </p>
+                  <ol>
+                      <li>
+                          <p
+                              style="text-align: justify;margin-bottom: 0.31in;line-height: 150%;background: rgb(255, 255, 255);">
+                              E-mail messages from The Company are exclusively intended for the addressee(s).</p>
+                      </li>
+                      <li>
+                          <p
+                              style="text-align: justify;margin-bottom: 0.31in;line-height: 150%;background: rgb(255, 255, 255);">
+                              Company's e-mail messages (including any attachments) are company property and may be
+                              confidential or otherwise protected from publication.</p>
+                      </li>
+                      <li>
+                          <p
+                              style="text-align: justify;margin-bottom: 0.31in;line-height: 150%;background: rgb(255, 255, 255);">
+                              Any unauthorized use, reproduction or distribution of the message (in whole or in part)
+                              is expressly forbidden.</p>
+                      </li>
+                      <li>
+                          <p
+                              style="text-align: justify;margin-bottom: 0.31in;line-height: 150%;background: rgb(255, 255, 255);">
+                              If you have mistakenly received an e-mail from the Company, we would request that you
+                              inform the sender of this immediately by e-mail or by another means.</p>
+                      </li>
+                      <li>
+                          <p
+                              style="text-align: justify;margin-bottom: 0.31in;line-height: 150%;background: rgb(255, 255, 255);">
+                              We would also request that you immediately delete this e-mail and any attachment(s) from
+                              your system.
+                          </p>
+                      </li>
+                      <li>
+                          <p
+                              style="text-align: justify;margin-bottom: 0.31in;line-height: 150%;background: rgb(255, 255, 255);">
+                              The Company shall not be liable for incorrect or incomplete transmission of information
+                              by e-mail.</p>
+                      </li>
+                      <li>
+                          <p
+                              style="text-align: justify;margin-bottom: 0.31in;line-height: 150%;background: rgb(255, 255, 255);">
+                              Neither shall it be liable for any delay in receipt, or any damage caused as a result.
+                          </p>
+                      </li>
+                      <li>
+                          <p
+                              style="text-align: justify;margin-bottom: 0.31in;line-height: 150%;background: rgb(255, 255, 255);">
+                              The Company does not guarantee that the integrity of e-mail will be preserved during
+                              transmission. Nor does it guarantee that the message or files attached to it cannot be
+                              infected by digital viruses or other infections, or that the message cannot be
+                              intercepted. We draw your attention to the fact that e-mail and attached files may be
+                              subject to changes by third parties.</p>
+                      </li>
+                      <li>
+                          <p
+                              style="text-align: justify;margin-bottom: 0.31in;line-height: 150%;background: rgb(255, 255, 255);">
+                              We would advise you, in the event of doubts as to the origin, accuracy or completeness,
+                              to contact the sender immediately.</p>
+                      </li>
+                      <li>
+                          <p
+                              style="text-align: justify;margin-bottom: 0.31in;line-height: 150%;background: rgb(255, 255, 255);">
+                              Non-business views, opinions and statements in this e-mail message are exclusively those
+                              of the author of this message and cannot be attributed to the Company.&nbsp;</p>
+                      </li>
+                  </ol>
+
+                  <p dir="rtl" style="text-align: left;margin-bottom: 0.11in;line-height: 108%;"><u><strong>Anti-spam
+                              and Email filtering</strong></u></p>
+                  <ol>
+                      <li>
+                          <p
+                              style="text-align: justify;margin-bottom: 0.08in;line-height: 150%;background: rgb(255, 255, 255);">
+                              The Company makes use of filters, which are frequently automatically updated, against
+                              viruses, spam, exploits and other digital threats.</p>
+                      </li>
+                      <li>
+                          <p
+                              style="text-align: justify;margin-bottom: 0.08in;line-height: 150%;background: rgb(255, 255, 255);">
+                              All incoming e-mails to the Company that have sufficient characteristics of these types
+                              shall be deleted or blocked:</p>
+                      </li>
+                  </ol>
+                  <ul>
+                      <li>
+                          <p
+                              style="text-align: justify;margin-top: 0.19in;margin-bottom: 0in;line-height: 150%;background: rgb(255, 255, 255);">
+                              E-mail that contains a virus will immediately be deleted;</p>
+                      </li>
+                      <li>
+                          <p
+                              style="text-align: justify;margin-bottom: 0in;line-height: 150%;background: rgb(255, 255, 255);">
+                              E-mail source check using several international RBL ‘blacklist’ databases. On receipt
+                              the filter blocks such an e-mail and sends a standardised (SMTP) technical report back
+                              to the mail server that sent it. NB: it is the responsibility of the sender to ensure
+                              that their mail server is removed from the RBL blacklist(s) in question;</p>
+                      </li>
+                      <li>
+                          <p
+                              style="text-align: justify;margin-bottom: 0in;line-height: 150%;background: rgb(255, 255, 255);">
+                              Blocking of internationally known ‘vandal’ files;</p>
+                      </li>
+                      <li>
+                          <p
+                              style="text-align: justify;margin-bottom: 0in;line-height: 150%;background: rgb(255, 255, 255);">
+                              Blocking of e-mails containing files that can be run in them;</p>
+                      </li>
+                      <li>
+                          <p
+                              style="text-align: justify;margin-bottom: 0.19in;line-height: 150%;background: rgb(255, 255, 255);">
+                              Keyword filtering for undesired words or character combinations in the e-mail subject
+                              (Subject) and/or the message itself (Body). Such e-mails land in a temporary e-mail
+                              quarantine buffer and can still be released by the recipient for a few days.</p>
+                      </li>
+                  </ul>
+                  <ol start="3">
+                      <li>
+                          <p
+                              style="text-align: justify;margin-bottom: 0.31in;line-height: 150%;background: rgb(255, 255, 255);">
+                              Due to the Company's e-mail filtering, but also because, within the Internet, mail is
+                              filtered for digital threats by Internet Service Providers, among others, it is possible
+                              that your e-mail might not reach the Company, whether wholly or in part.</p>
+                      </li>
+                      <li>
+                          <p
+                              style="text-align: justify;margin-bottom: 0.31in;line-height: 150%;background: rgb(255, 255, 255);">
+                              We would therefore advise, if there is any doubt in the case of an important e-mail to
+                              the Company, or a file sent to the Company, that you check whether the message and/or
+                              file has been received in good order.</p>
+                      </li>
+                  </ol>
+
               </div>
-           </div>
-        </div>
-     </div>
-     <script src="./js/jquery.min.js"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
-     <script src="./js/intlTelInput-jquery.min.js"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/js/utils.min.js"></script>
-     <script src="js/app.js"></script>
-  </body>
+          </div>
+      </div>
+  </div>
+
+  <!-- //////////////////modal window Report Abuse -->
+  <div id="modalReportAbuse" class="footer_modal">
+      <div id="modalReportAbuse_Block">
+          <div id="modal_ReportAbuse_Block1">
+              <a class="close-btn btnBlackCross" id="close_btn_modal_ReportAbuse"></a>
+              <div id="modal_content_ReportAbuse">
+                  <div class="intgrtn-modal-header">
+                      <div class="intgrtn-modal-title"><strong> Report Abuse </strong> </div>
+                  </div>
+                  <div class="intgrtn-modal-body">
+                      <div class="intgrtn-text-top">The website securedailywealth.com is used as a marketing material
+                          to
+                          promote advertisers by 3rd party promoters, affiliates, affiliate networks and ad
+                          networks.<br><br> Anyone promoting this website is prohibited from using spam, spyware,
+                          incentivization, denial of service, use of wrong/false marketing material, your identity was
+                          used in prelanders prioir for you reaching thise page and any other illegal activity and is
+                          obligated to apply all local laws and regulations including GDPR rules where the users are
+                          sent
+                          from.<br><br>If you have come to securedailywealth.com as a result of abuse activity
+                          (mentioned
+                          above or any other which is not) , please complete the form below to report the issue. We
+                          carefully examine every abuse report and we take action against the promoters.</div>
+
+                      <form class="reg_form" method="POST">
+                          <div class="form-group twoColumn">
+                              <input type="text" class="input" maxlength="256" name="first_name"
+                              pattern="[^0-9!@#\$\^&%\*\(\)\+=\-\[\]\{\}\|:<>\?,\.']+"
+                              placeholder="First Name" aria-label="First Name" required="required"
+                              autofocus>
+                          <div class="icon"></div>
+                          </div>
+
+                          <div class="form-group twoColumn">
+                              <input type="text" class="input" maxlength="256" name="last_name"
+                              pattern="[^0-9!@#\$\^&%\*\(\)\+=\-\[\]\{\}\|:<>\?,\.']+"
+                              placeholder="Last Name" aria-label="Last Name" required="required">
+                          <div class="icon"></div>
+                          </div>
+
+                          <div class="form-group">
+                              <input type="email" class="input" maxlength="256" name="email"
+                              pattern="[A-Za-z0-9._%+-]{1,}@[a-zA-Z0-9._%+-]{1,}([.]{1}[a-zA-Z]{2,}|[.]{1}[a-zA-Z0-9._%+-]{2,}[.]{1}[a-zA-Z]{2,})"
+                              placeholder="Your email address" aria-label="Your email address"
+                              required="required">
+                          <div class="icon"></div>
+                          </div>
+
+                          <div class="form-group itiPhoneBox">
+                              <input type="tel" id="phone6" name="phone">
+                          </div>
+
+                          <div class="form-group groupselect">
+                              <select name="type" required="" value="" title="Type">
+                                  <option value="1">General Inquiries</option>
+                                  <option value="2">Technical Support</option>
+                                  <option value="3">Spam/GDPR</option>
+                                  <option value="4">Misleading Content</option>
+                                  <option value="5">Incentivising</option>
+                                  <option value="6">Malware</option>
+                                  <option value="7">Inappropriate</option>
+                                  <option value="8">Other</option>
+                              </select>
+                          </div>
+                          <div class="form-group">
+                              <input type="text" name="subject" id="subject-report_modal" placeholder="Subject">
+                          </div>
+                          <div class="form-group groupText">
+                              <textarea name="text"></textarea>
+                          </div>
+                          <div class="submit-button-group">
+                              <button type="submit" class="button" >OPEN ACCOUNT</button>
+                          </div>
+                      </form>
+
+
+
+                  </div>
+              </div>
+              <div id="modal_successfully_ReportAbuse" style="display: none;">
+                  <h2>The message has been sent successfully</h2>
+                  <p>Your support ticket has been sent successfully. Once we respond, you will receive an email
+                      notification. Make sure you check your spam/junk folders.
+
+                  </p>
+                  <button>OK</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+  <!-- //////////////////modal window Contact Us -->
+  <div id="modalContactUs" class="footer_modal">
+      <div id="modalContactUs_Block">
+          <div id="modal_ContactUs_Block1">
+
+
+              <a class="close-btn btnBlackCross" id="close_btn_modal_ContactUs"></a>
+              <div id="modal_content_ContactUs">
+                  <div class="intgrtn-modal-header">
+                      <div class="intgrtn-modal-title"><strong> Contact Us </strong> </div>
+                  </div>
+                  <div class="intgrtn-modal-body">
+                      <div class="intgrtn-text-top">If you have any questions or feedback, you are welcome to contact
+                          us by using the form below:</div>
+
+                      <form class="reg_form" method="POST">
+                          <div class="form-group twoColumn">
+                              <input type="text" class="input" maxlength="256" name="first_name"
+                              pattern="[^0-9!@#\$\^&%\*\(\)\+=\-\[\]\{\}\|:<>\?,\.']+"
+                              placeholder="First Name" aria-label="First Name" required="required"
+                              autofocus>
+                          <div class="icon"></div>
+                          </div>
+
+                          <div class="form-group twoColumn">
+                              <input type="text" class="input" maxlength="256" name="last_name"
+                              pattern="[^0-9!@#\$\^&%\*\(\)\+=\-\[\]\{\}\|:<>\?,\.']+"
+                              placeholder="Last Name" aria-label="Last Name" required="required">
+                              <div class="icon"></div>
+                          </div>
+
+                          <div class="form-group">
+                              <input type="email" class="input" maxlength="256" name="email"
+                              pattern="[A-Za-z0-9._%+-]{1,}@[a-zA-Z0-9._%+-]{1,}([.]{1}[a-zA-Z]{2,}|[.]{1}[a-zA-Z0-9._%+-]{2,}[.]{1}[a-zA-Z]{2,})"
+                              placeholder="Your email address" aria-label="Your email address"
+                              required="required">
+                          <div class="icon"></div>
+                          </div>
+
+                          <div class="form-group itiPhoneBox" style="width: 100%; display: flex;">
+                              <input type="tel" id="phone7" name="phone">
+                          </div>
+                          <div class="form-group groupselect">
+                              <select name="type" required="" value="" title="Type">
+                                  <option value="1">General Inquiries</option>
+                                  <option value="2">Technical Support</option>
+                                  <option value="3">Spam/GDPR</option>
+                                  <option value="4">Misleading Content</option>
+                                  <option value="5">Incentivising</option>
+                                  <option value="6">Malware</option>
+                                  <option value="7">Inappropriate</option>
+                                  <option value="8">Other</option>
+                              </select>
+                          </div>
+                          <div class="form-group">
+                              <input type="text" name="subject" id="subject-contact_modal" placeholder="Subject">
+                          </div>
+                          <div class="form-group groupText">
+                              <textarea name="text"></textarea>
+                          </div>
+                          <div class="submit-button-group">
+                              <button type="submit" class="button" >OPEN ACCOUNT</button>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+              <div id="modal_successfully_ContactUs" style="display: none;">
+                  <h2>The message has been sent successfully</h2>
+                  <p>Your support ticket has been sent successfully. Once we respond, you will receive an email
+                      notification. Make sure you check your spam/junk folders.
+
+                  </p>
+                  <button>OK</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+      <script defer src="./js/jquery.min.js"></script>
+      <script defer src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+      <script defer src="./js/intlTelInput-jquery.min.js"></script>
+      <script defer src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/js/utils.min.js"></script>
+      <script defer src="js/app.js"></script>
+   </body>
 </html>
